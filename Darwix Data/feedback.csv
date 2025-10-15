@@ -1,0 +1,198 @@
+feedback_id,user_id,rating,feature_name,comments,session_id
+1,1,4,document_analysis,Works well,6
+2,1,4,email_automation,Found a bug,7
+3,1,3,ai_assistant,Confusing in parts,8
+4,1,5,dashboard_view,Confusing in parts,10
+5,1,4,ai_assistant,Confusing in parts,14
+6,2,5,document_analysis,Good UI,20
+7,3,5,ai_assistant,Found a bug,24
+8,3,5,document_analysis,Good UI,25
+9,3,5,document_analysis,Great speed,30
+10,3,5,ai_assistant,Good UI,34
+11,3,3,team_collaboration,Works well,36
+12,6,4,document_analysis,Needs improvement,40
+13,7,3,dashboard_view,Needs improvement,47
+14,7,5,dashboard_view,Works well,48
+15,7,3,api_integration,Useful,51
+16,7,5,data_export,Confusing in parts,59
+17,9,4,analytics_deep_dive,Great speed,65
+18,9,5,data_export,Needs improvement,66
+19,9,5,custom_workflows,Needs improvement,68
+20,9,4,custom_workflows,Good UI,70
+21,9,4,custom_workflows,Found a bug,71
+22,10,5,api_integration,Works well,73
+23,10,4,custom_workflows,Good UI,79
+24,10,3,custom_workflows,Needs improvement,82
+25,11,4,analytics_deep_dive,Good UI,94
+26,11,5,analytics_deep_dive,Useful,96
+27,12,3,ai_assistant,Great speed,103
+28,13,4,ai_assistant,Works well,108
+29,13,5,document_analysis,Works well,111
+30,13,5,document_analysis,Needs improvement,114
+31,13,4,team_collaboration,Great speed,116
+32,13,5,email_automation,Great speed,118
+33,14,4,api_integration,Confusing in parts,120
+34,14,5,document_analysis,Found a bug,122
+35,14,4,data_export,Needs improvement,127
+36,14,5,custom_workflows,Good UI,128
+37,14,5,document_analysis,Confusing in parts,131
+38,14,3,dashboard_view,Good UI,132
+39,14,4,analytics_deep_dive,Useful,133
+40,14,5,api_integration,Great speed,137
+41,14,4,document_analysis,Confusing in parts,138
+42,15,2,ai_assistant,Found a bug,141
+43,17,5,dashboard_view,Works well,150
+44,17,5,analytics_deep_dive,Confusing in parts,153
+45,17,4,custom_workflows,Good UI,159
+46,17,5,data_export,Useful,161
+47,18,2,document_analysis,Good UI,167
+48,19,4,custom_workflows,Confusing in parts,169
+49,19,3,analytics_deep_dive,Needs improvement,170
+50,19,5,analytics_deep_dive,Useful,173
+51,19,5,data_export,Works well,174
+52,19,5,document_analysis,Great speed,181
+53,20,3,email_automation,Needs improvement,185
+54,20,4,team_collaboration,Useful,188
+55,20,4,ai_assistant,Great speed,191
+56,22,2,ai_assistant,Useful,198
+57,23,4,analytics_deep_dive,Confusing in parts,206
+58,23,4,api_integration,Great speed,207
+59,23,5,document_analysis,Found a bug,208
+60,24,3,dashboard_view,Good UI,211
+61,25,4,ai_assistant,Useful,212
+62,26,4,email_automation,Good UI,214
+63,26,5,document_analysis,Great speed,215
+64,26,5,dashboard_view,Needs improvement,216
+65,26,4,ai_assistant,Useful,218
+66,26,5,ai_assistant,Works well,222
+67,26,4,team_collaboration,Found a bug,225
+68,27,5,dashboard_view,Useful,228
+69,27,3,dashboard_view,Found a bug,229
+70,28,5,email_automation,Good UI,234
+71,29,5,email_automation,Found a bug,238
+72,29,5,dashboard_view,Confusing in parts,239
+73,29,4,dashboard_view,Needs improvement,241
+74,29,3,dashboard_view,Good UI,242
+75,29,5,team_collaboration,Needs improvement,243
+76,29,5,email_automation,Works well,244
+77,29,5,ai_assistant,Good UI,246
+78,29,3,ai_assistant,Great speed,247
+79,29,5,email_automation,Useful,248
+80,32,5,team_collaboration,Good UI,256
+81,33,5,ai_assistant,Great speed,269
+82,33,4,email_automation,Found a bug,270
+83,36,4,email_automation,Useful,286
+84,36,4,dashboard_view,Confusing in parts,291
+85,37,3,sales_insights,Found a bug,292
+86,39,5,email_automation,Found a bug,296
+87,39,5,ai_assistant,Useful,297
+88,39,5,ai_assistant,Works well,302
+89,40,4,team_collaboration,Great speed,305
+90,40,4,email_automation,Found a bug,307
+91,40,4,dashboard_view,Great speed,309
+92,40,5,dashboard_view,Great speed,310
+93,40,4,dashboard_view,Works well,312
+94,41,2,dashboard_view,Works well,317
+95,42,4,sales_insights,Great speed,320
+96,45,4,sales_insights,Confusing in parts,328
+97,47,5,team_collaboration,Great speed,333
+98,47,5,document_analysis,Needs improvement,334
+99,47,5,email_automation,Great speed,336
+100,47,4,team_collaboration,Good UI,337
+101,48,5,team_collaboration,Found a bug,345
+102,48,5,team_collaboration,Great speed,346
+103,48,4,email_automation,Found a bug,348
+104,48,4,dashboard_view,Found a bug,352
+105,48,5,team_collaboration,Useful,353
+106,48,4,ai_assistant,Works well,355
+107,52,4,document_analysis,Needs improvement,370
+108,58,5,data_export,Great speed,385
+109,58,4,analytics_deep_dive,Found a bug,387
+110,58,5,custom_workflows,Confusing in parts,388
+111,59,4,document_analysis,Works well,390
+112,63,4,document_analysis,Useful,406
+113,64,4,ai_assistant,Found a bug,417
+114,66,5,dashboard_view,Useful,428
+115,66,4,document_analysis,Confusing in parts,429
+116,66,4,api_integration,Works well,430
+117,66,5,data_export,Needs improvement,431
+118,66,4,api_integration,Confusing in parts,433
+119,66,5,data_export,Good UI,434
+120,66,3,analytics_deep_dive,Great speed,435
+121,71,5,team_collaboration,Found a bug,444
+122,71,5,ai_assistant,Great speed,445
+123,72,4,email_automation,Great speed,457
+124,77,3,ai_assistant,Great speed,472
+125,77,4,email_automation,Great speed,473
+126,77,4,document_analysis,Great speed,474
+127,77,5,ai_assistant,Confusing in parts,476
+128,77,5,team_collaboration,Needs improvement,478
+129,78,4,team_collaboration,Great speed,485
+130,78,5,team_collaboration,Works well,487
+131,79,4,dashboard_view,Works well,490
+132,79,4,analytics_deep_dive,Needs improvement,493
+133,79,5,custom_workflows,Confusing in parts,495
+134,79,5,data_export,Useful,505
+135,79,4,analytics_deep_dive,Needs improvement,506
+136,79,5,custom_workflows,Needs improvement,510
+137,80,5,api_integration,Great speed,514
+138,80,5,data_export,Found a bug,518
+139,81,3,data_export,Great speed,525
+140,81,5,data_export,Great speed,526
+141,81,4,dashboard_view,Works well,534
+142,81,5,custom_workflows,Found a bug,535
+143,81,5,document_analysis,Needs improvement,536
+144,83,4,analytics_deep_dive,Useful,548
+145,83,4,document_analysis,Useful,550
+146,83,5,analytics_deep_dive,Found a bug,551
+147,83,5,analytics_deep_dive,Confusing in parts,555
+148,83,5,document_analysis,Works well,561
+149,86,4,dashboard_view,Needs improvement,565
+150,87,5,custom_workflows,Found a bug,568
+151,87,4,document_analysis,Needs improvement,570
+152,87,4,api_integration,Good UI,572
+153,87,3,api_integration,Found a bug,577
+154,87,5,custom_workflows,Needs improvement,578
+155,88,5,document_analysis,Useful,583
+156,90,4,email_automation,Useful,596
+157,90,5,document_analysis,Needs improvement,602
+158,90,4,team_collaboration,Confusing in parts,603
+159,90,4,dashboard_view,Found a bug,604
+160,90,4,dashboard_view,Great speed,606
+161,92,5,dashboard_view,Good UI,614
+162,92,5,ai_assistant,Needs improvement,618
+163,92,5,ai_assistant,Great speed,620
+164,92,4,ai_assistant,Good UI,622
+165,92,5,document_analysis,Needs improvement,623
+166,96,5,email_automation,Useful,632
+167,96,3,dashboard_view,Needs improvement,636
+168,98,5,custom_workflows,Found a bug,639
+169,98,4,api_integration,Useful,640
+170,98,4,api_integration,Confusing in parts,644
+171,98,4,document_analysis,Good UI,648
+172,98,5,document_analysis,Works well,651
+173,99,4,document_analysis,Confusing in parts,654
+174,99,2,sales_insights,Needs improvement,655
+175,107,4,api_integration,Needs improvement,690
+176,108,4,document_analysis,Good UI,695
+177,108,4,document_analysis,Found a bug,696
+178,108,4,analytics_deep_dive,Good UI,706
+179,108,5,custom_workflows,Confusing in parts,709
+180,109,5,document_analysis,Useful,714
+181,109,4,document_analysis,Useful,722
+182,111,4,dashboard_view,Good UI,728
+183,112,4,data_export,Useful,730
+184,112,4,analytics_deep_dive,Found a bug,734
+185,112,5,analytics_deep_dive,Great speed,737
+186,112,5,document_analysis,Useful,740
+187,112,4,data_export,Confusing in parts,741
+188,115,5,api_integration,Confusing in parts,752
+189,115,4,api_integration,Useful,757
+190,115,5,dashboard_view,Found a bug,761
+191,117,5,team_collaboration,Found a bug,767
+192,117,4,team_collaboration,Good UI,768
+193,117,4,document_analysis,Great speed,769
+194,117,4,document_analysis,Works well,773
+195,117,5,document_analysis,Useful,776
+196,120,5,document_analysis,Works well,785
+197,120,5,data_export,Found a bug,792
