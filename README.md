@@ -73,7 +73,8 @@ Repeat sessions are most strongly associated with dashboard_view, which is used 
 
 ## 1.3 Behvioral Hypotheses and their Validations 
 
-**Hypothesis 1:** Users who do not experience core product value early are unlikely to activate
+### **Hypothesis 1:**
+### Users who do not experience core product value early are unlikely to activate
 
 **What I believe:**
 Most users drop off because they fail to engage with the product’s core features (dashboard view, document analysis, AI assistant) before completing their first transaction.
@@ -83,3 +84,27 @@ Core features are heavily used by repeat users, yet overall activation is low (o
 
 **How I would validate:**
 Compare activation and Day-1 retention between users who interacted with at least one core feature in their first session and those who did not. If users who touched a core feature activate and retain at a meaningfully higher rate, the hypothesis holds.
+
+## **Hypothesis 2:** 
+### The product lacks a clear “push” from account creation to first transaction
+
+**What I believe:**
+After account creation, users are unsure what to do next, leading to a 72% drop-off before the first transaction.
+
+**Why I believe this:**
+The sharp funnel drop happens immediately after signup, not later in the journey. This points to friction, confusion, or lack of guidance rather than dissatisfaction with advanced functionality.
+
+**How I would validate:**
+Track time-to-first-transaction and first-session behavior. If most users drop without performing any meaningful action (feature usage, setup, transaction attempt), it confirms that onboarding is not effectively guiding users forward.
+
+## **Hypothesis 3:**
+### Advanced features support engagement only after users are already retained
+
+**What I believe:**
+Advanced features (custom workflows, analytics deep dive, API integration) do not drive early activation and are mainly used by already-engaged users.
+
+**Why I believe this:**
+These features have low overall adoption but appear among repeat users, suggesting they add depth rather than initial value.
+
+**How I would validate:**
+Compare early retention of users who interacted with advanced features in their first session versus those who did not. If early retention does not improve, it confirms these features should be introduced later in the user journey.
