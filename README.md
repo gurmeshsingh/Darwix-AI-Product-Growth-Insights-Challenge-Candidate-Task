@@ -64,8 +64,7 @@ We are provided with 4 CSV tables:
 
 ## 1.2 Features most strongly correlated with repeat sessions
 
-Repeat sessions are most strongly associated with dashboard_view, which is used by the highest number of returning users, making it the primary engagement surface. Document_analysis and ai_assistant also show strong correlation with repeat usage, indicating sustained value once users adopt them. Other features are used by fewer repeat users, suggesting they support niche or advanced use cases rather than driving core repeat behavior.
-
+##### Repeat sessions are most strongly associated with dashboard_view, which is used by the highest number of returning users, making it the primary engagement surface. Document_analysis and ai_assistant also show strong correlation with repeat usage, indicating sustained value once users adopt them. Other features are used by fewer repeat users, suggesting they support niche or advanced use cases rather than driving core repeat behavior.
 
 <img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/5ebcd795-89b5-4c4b-a501-132a0630ef9b" />
 
@@ -73,38 +72,72 @@ Repeat sessions are most strongly associated with dashboard_view, which is used 
 
 ## 1.3 Behvioral Hypotheses and their Validations 
 
-### **Hypothesis 1:**
+ ### **Hypothesis 1:**
 ### Users who do not experience core product value early are unlikely to activate
 
-**What I believe:**
+- **What I believe:**
 Most users drop off because they fail to engage with the product’s core features (dashboard view, document analysis, AI assistant) before completing their first transaction.
 
-**Why I believe this:**
+- **Why I believe this:**
 Core features are heavily used by repeat users, yet overall activation is low (only 28%). This suggests many users leave before reaching the point where value becomes clear.
 
-**How I would validate:**
+- **How I would validate:**
 Compare activation and Day-1 retention between users who interacted with at least one core feature in their first session and those who did not. If users who touched a core feature activate and retain at a meaningfully higher rate, the hypothesis holds.
 
-## **Hypothesis 2:** 
+ ### **Hypothesis 2:** 
 ### The product lacks a clear “push” from account creation to first transaction
 
-**What I believe:**
+- **What I believe:**
 After account creation, users are unsure what to do next, leading to a 72% drop-off before the first transaction.
 
-**Why I believe this:**
+- **Why I believe this:**
 The sharp funnel drop happens immediately after signup, not later in the journey. This points to friction, confusion, or lack of guidance rather than dissatisfaction with advanced functionality.
 
-**How I would validate:**
+- **How I would validate:**
 Track time-to-first-transaction and first-session behavior. If most users drop without performing any meaningful action (feature usage, setup, transaction attempt), it confirms that onboarding is not effectively guiding users forward.
 
-## **Hypothesis 3:**
+ ### **Hypothesis 3:**
 ### Advanced features support engagement only after users are already retained
 
-**What I believe:**
+- **What I believe:**
 Advanced features (custom workflows, analytics deep dive, API integration) do not drive early activation and are mainly used by already-engaged users.
 
-**Why I believe this:**
+- **Why I believe this:**
 These features have low overall adoption but appear among repeat users, suggesting they add depth rather than initial value.
 
-**How I would validate:**
+- **How I would validate:**
 Compare early retention of users who interacted with advanced features in their first session versus those who did not. If early retention does not improve, it confirms these features should be introduced later in the user journey.
+
+
+---
+## PART 2 : Product Funnel and Opportunity Identification 
+
+- Current onboarding funnel data shows that 72% of users drop off after account creation and before completing their first transaction.
+
+## 2.1 Funnel Visualization of User Journey
+
+![WhatsApp Image 2025-12-22 at 02 37 13](https://github.com/user-attachments/assets/cb3a65c5-f8ce-4ead-8111-be87ba811537)
+
+## 2.2 Reasons for Drop-off in the Onboarding Funnel
+
+## **Reason 1:** Users do not see immediate value after account creation
+
+#### After creating an account, users are not quickly shown a clear outcome or benefit of using the product. They enter the product but do not experience a moment that makes the product feel useful or relevant to them.
+
+### **Why this leads to drop-off:**
+#### When users do not see value early, there is no strong motivation to continue. Even if the product is powerful, delayed value makes users disengage before completing their first transaction.
+
+## **Reason 2 :** The first transaction requires too much effort or commitment from new users.
+
+#### Completing the first transaction likely requires setup, understanding multiple steps, or making decisions that feel heavy for a new user.
+
+### **Why this causes drop-off:**
+#### New users often hesitate when the first meaningful action requires effort without immediate payoff. If the perceived cost (time, setup, learning) is higher than the perceived value, users choose to leave instead of pushing through.
+
+## Revised two reasons (clean summary)
+
+### 1.Users are not clearly guided on what to do after account creation.
+
+### 2.The first transaction feels too complex or high-effort for a new user.
+
+
