@@ -140,4 +140,84 @@ Compare early retention of users who interacted with advanced features in their 
 
 ### 2.The first transaction feels too complex or high-effort for a new user.
 
+# A/B Test Proposal: Improving Activation After Account Creation
+
+## Problem Statement
+Current onboarding data shows that **72% of users drop off after account creation and before completing their first transaction**. This indicates a major activation issue where users fail to reach a point of clear product value.
+
+---
+
+## Key Insight
+Repeat users consistently engage with a small set of core features, while new users are exposed to the full product immediately after signup. This early exposure to multiple options may increase cognitive load and reduce clarity on what to do next.
+
+---
+
+## Hypothesis
+If new users are guided through a **single, low-effort starter action** that clearly demonstrates product value, they will be more likely to complete their first transaction and activate.
+
+---
+
+## Experiment Design
+
+### Control Group (A): Current Experience
+- User completes account creation
+- Lands on the full dashboard
+- All features are visible
+- No explicit guidance on the first action
+
+### Variant Group (B): Focused “Starter Mode”
+- After account creation, users enter a temporary **starter mode**
+- The interface highlights:
+  - One core feature (e.g., document analysis)
+  - One clear primary call-to-action (e.g., “Complete your first analysis”)
+- Secondary and advanced features are hidden until:
+  - The first transaction is completed, or
+  - The user exits starter mode intentionally
+
+The goal is to **reduce choice overload**, not to add a tutorial.
+
+---
+
+## Success Metrics
+
+### Primary Metric
+- **First Transaction Completion Rate**  
+  Percentage of users who complete their first transaction within 24 hours of signup.
+
+### Secondary Metrics
+- **Time to First Transaction** (median)
+- **Day-1 Retention Rate**
+- **Core Feature Usage in First Session**
+
+### Guardrail Metrics
+- Session duration
+- Early exit rate from starter mode
+
+---
+
+## Test Plan
+- **Audience:** All new users signing up during the experiment
+- **Split:** 50% Control / 50% Variant
+- **Duration:** 1–2 weeks or until sufficient sample size is reached
+- **Eligibility:** First-time users only
+- **Exclusions:** Returning or invited users
+
+---
+
+## Evaluation Criteria
+The test will be considered successful if the variant group shows:
+- A meaningful increase in first transaction completion rate
+- Reduced time to first transaction
+- No negative impact on Day-1 retention or engagement
+
+---
+
+## Expected Learnings
+- If the test succeeds, guided onboarding should be expanded to improve activation.
+- If it fails, the root cause likely lies in value communication or transaction friction rather than choice overload.
+
+---
+
+## Why This Experiment Matters
+This A/B test directly targets the largest funnel drop-off. Even a modest improvement in activation at this stage will compound into better retention, higher feature adoption, and overall product growth.
 
